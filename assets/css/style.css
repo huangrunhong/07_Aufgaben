@@ -11,11 +11,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  width: fit-content;
-}
 body{
-    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 nav ul {
   margin-top: 21px;
@@ -55,6 +53,7 @@ main p {
   height: 503px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .layout_right article {
   display: flex;
@@ -62,8 +61,6 @@ main p {
 }
 
 .layout_right .button a:hover {
-    width: 130px;
-    height: 64px;
     background-color: #202020;
     margin-top: 20px;
     margin-right: 20px;
@@ -74,8 +71,6 @@ main p {
     color: white;
   }
 .layout_right .button a {
-  width: 130px;
-  height: 64px;
   background-color: #ffffff;
   margin-top: 20px;
   margin-right: 20px;
@@ -89,8 +84,6 @@ main p {
 
 .layout_right img {
   height: 502px;
-  position: absolute;
-  right: 0;
 }
 
 .layout_left {
@@ -103,11 +96,9 @@ main p {
 }
 .layout_left img {
   height: 502px;
-  position: absolute;
-  left: 144px;
 }
 .layout_left .paragraph {
-  margin-left: 576px;
+  margin-left: 200px;
 }
 
 main .paragraph {
